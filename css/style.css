@@ -1,0 +1,33 @@
+*{
+    background-color: gainsboro;
+}
+
+img.imagem{
+    width: 500px;
+    height: 400px;
+}
+
+img.logo{
+    width: 300px;
+    height: 100px;
+}
+
+h2{
+    color: red;
+    font-family: serif;
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+figure{
+    text-align: center;
+}
+p,li{
+    font-family: monospace;
+    text-align: justify;
+}
+h2, h3{
+    text-decoration:  underline;
+}
