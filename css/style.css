@@ -1,5 +1,9 @@
-*{
-    background-color: gainsboro;
+body{
+    background-image: url(https://st.depositphotos.com/3008028/4294/i/600/depositphotos_42948809-stock-photo-frost-white-background-black-light.jpg);
+    font-family: 'Lucida Grande', Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
 }
 
 img.imagem{
@@ -12,22 +16,34 @@ img.logo{
     height: 100px;
 }
 
-h2{
+figure{
+    border:  solid crimson 3px;
+    border-left: dashed orangered 4px;
+    border-right: dotted orangered 4px;
+}   
+
+/*h2{
     color: red;
     font-family: serif;
 }
 
 h3{
     font-family: sans-serif;
-}
+} */
 
 figure{
     text-align: center;
 }
 p,li{
-    font-family: monospace;
-    text-align: justify;
+   /* font-family: monospace;*/
+    text-align: justify; 
+    line-height: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-indent: 30px;
+    color:#962a3c;
 }
 h2, h3{
     text-decoration:  underline;
 }
+

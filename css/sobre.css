@@ -1,0 +1,51 @@
+body {
+    font-family: Helvetica, 'Lucida Grande', sans-serif;
+    text-align: justify;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #3D3D3D;
+    background-color: #e1edf2;
+    padding: 10px;
+    margin: 30px;
+}
+
+h5 {
+    margin: 30px;
+}
+
+
+h3 {
+    border-bottom: solid 1px;
+    margin: 30px;
+}
+
+figure {
+    text-align: center;
+    background-color: whitesmoke;
+    color: lightgrey;
+    border: solid 1px darkgray;
+
+}
+
+img.imagem {
+    width: 700px;
+    height: 500px;
+}
+
+p,ul,figure {
+    margin: 30px;
+    font-size: 14px;
+}
+
+figure {
+    margin: 30px;
+    padding: 15px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
