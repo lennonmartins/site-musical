@@ -10,41 +10,67 @@ h2 {
     color: #3D3D3D;
     background-color: #e1edf2;
     padding: 10px;
-    margin: 30px;
+    font-style: inherit;  
 }
 
-h5 {
-    margin: 30px;
+p, ul, ol, dl{
+    font-size: 14px;  
 }
-
 
 h3 {
     border-bottom: solid 1px;
-    margin: 30px;
 }
 
 figure {
-    text-align: center;
     background-color: whitesmoke;
     color: lightgrey;
     border: solid 1px darkgray;
-
-}
-
-img.imagem {
-    width: 700px;
-    height: 500px;
-}
-
-p,ul,figure {
-    margin: 30px;
     font-size: 14px;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
 }
 
-figure {
-    padding: 15px;
+a{
+    text-decoration: none;
 }
+
+
+.matriz{
+   width: 550px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+figure img{
+    width: 100%;
+}
+
+.familia {
+    width: 275px;
+    float: right;
+}
+
+
 
 figcaption {
     margin-top: 10px;
 }
+
+ul{
+    list-style: unset;
+    
+}
+
+ol{
+    list-style-type: square;
+}
+
+
+
+
+#logo{
+    height: 100px;
+    width: 300px;
+}
+
