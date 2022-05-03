@@ -6,19 +6,20 @@ body {
     margin-right: auto;
 }
 
-h2 {
+.titulo {
     color: #3D3D3D;
     background-color: #e1edf2;
     padding: 10px;
-    font-style: inherit;  
+    font-size: 32px;
 }
 
-p, ul, ol, dl{
-    font-size: 14px;  
+p,ul,ol,dl {
+    font-size: 14px;
 }
 
-h3 {
+.subtitulo {
     border-bottom: solid 1px;
+    font-weight: bold;
 }
 
 figure {
@@ -31,18 +32,17 @@ figure {
     margin: 30px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-
-.matriz{
-   width: 550px;
-   margin-right: auto;
-   margin-left: auto;
+.matriz {
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-figure img{
+figure img {
     width: 100%;
 }
 
@@ -51,26 +51,48 @@ figure img{
     float: right;
 }
 
-
-
 figcaption {
     margin-top: 10px;
 }
 
-ul{
+ul {
     list-style: unset;
-    
 }
 
-ol{
+ol {
     list-style-type: square;
 }
 
-
-
-
-#logo{
+#logo {
     height: 100px;
     width: 300px;
 }
 
+address {
+    font-size: 14px;
+}
+
+.contato__secao{
+
+}
+
+.contato__subtitulo{
+    display: inline;
+}
+
+.contato__info{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato__secao--telefone{
+
+}
+
+.contato__info--titulo{
+
+}
+
+.contato__info--descricao{
+
+}
