@@ -36,14 +36,35 @@
 
 .cabecalho{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center ;
-
+    padding: 0 5%;
+    
 }
-
 .cabecalho__menu{
     background-color: transparent;
 }
+.cabecalho__logo{
+    padding: 2.5em 0;
+}
+}
 
+@media (min-width: 770px ) {
+    .cabecalho__item-menu--matricular{
+        margin-left: 1.42em;
+        border-radius: 6px;
+        background-color: #e93d50;
+        }
+
+        .cabecalho__item-menu--matricular a{
+            padding: 1.8em 3.5em;
+        }
+}
+
+@media (min-width: 1066px) {
+    .cabecalho{
+        padding-left: calc((100% - 960px) /2);
+        padding-right: calc((100% - 960px) /2);
+    }   
 }
 
