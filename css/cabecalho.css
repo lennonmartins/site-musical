@@ -49,7 +49,7 @@
 }
 }
 
-@media (min-width: 770px ) {
+@media (min-width: 768px ) {
     .cabecalho__item-menu--matricular{
         margin-left: 1.42em;
         border-radius: 6px;
@@ -67,4 +67,6 @@
         padding-right: calc((100% - 960px) /2);
     }   
 }
+
+
 
